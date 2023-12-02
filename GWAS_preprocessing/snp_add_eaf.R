@@ -1,4 +1,4 @@
-snp_add_eaf <- function(dat, build = "37", pop = "EUR")
+snp_add_eaf <- function(dat, build = "37", pop = "EUR") 
 {
   stopifnot(build %in% c("37","38"))
   stopifnot("SNP" %in% names(dat))
